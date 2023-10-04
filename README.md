@@ -1,5 +1,5 @@
 # E-Commerce_Clients_Back_Office
-I have  a visison to set a Great Store inshallah in future ( I know I need to work hard to reach my goals so I will work hard and with discipline )
+I have  a visison to set a Great Store inshallah in future ( I know I need to work hard to reach my goals so I will work hard and with discipline)
 # E-Commerce Web Application
 
 This is an E-Commerce web application project built using Django, Vue.js, and GraphQL. The project is designed to provide two services: one for clients to browse and purchase products, and another for administrators to manage the website and view statistics.
