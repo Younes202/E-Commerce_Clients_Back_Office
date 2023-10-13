@@ -14,7 +14,7 @@ function Product() {
       <main className="max-w-screen-xl mx-auto px-4 py-8">
         <section className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6">
           <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">
-            About Our Ecommerce Store
+            About Our Product Store
           </h2>
           <p className="mt-2 text-gray-600 dark:text-gray-400">
             Welcome to our online marketplace! We are dedicated to providing you with the best shopping experience.
