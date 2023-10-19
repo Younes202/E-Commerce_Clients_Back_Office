@@ -26,6 +26,25 @@ function Category() {
     category.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  // Sample product data, you can replace this with your own product data
+  const products = [
+    {
+      name: 'Product 1',
+      price: '$100',
+      description: 'Description for Product 1',
+    },
+    {
+      name: 'Product 2',
+      price: '$150',
+      description: 'Description for Product 2',
+    },
+    {
+      name: 'Product 3',
+      price: '$80',
+      description: 'Description for Product 3',
+    },
+  ];
+
   return (
     <div className="h-screen">
       <main className="max-w-screen-xl mx-auto px-4 py-8">
@@ -87,6 +106,18 @@ function Category() {
               </ul>
             </div>
           )}
+
+          {/* Product Cards */}
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            {products.map((product, index) => (
+              <div key={index} className="bg-white p-4 rounded-lg shadow">
+                <h2 className="text-lg font-semibold">{product.name}</h2>
+                <p className="text-gray-600">{product.price}</p>
+                <p className="mt-2">{product.description}</p>
+                {/* Add more details or buttons as needed */}
+              </div>
+            ))}
+          </div>
         </form>
       </main>
     </div>
